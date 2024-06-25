@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <main>
         <div className="wrap main--grid">
-            <Link className="course--module course--link" to="course-detail.html">
+            <Link className="course--module course--link" to="/course">
                 <h2 className="course--label">Course</h2>
                 <h3 className="course--title">Build a Basic Bookcase</h3>
             </Link>
