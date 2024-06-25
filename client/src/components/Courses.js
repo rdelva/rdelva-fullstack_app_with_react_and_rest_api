@@ -1,16 +1,14 @@
 //import { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import Nav from './Nav';
+// import { Link } from 'react-router-dom';
+// import Nav from './Nav';
+import Home from './Home';
 
 
 const Courses = () => {
   return (
-    <header>
-      <div className="wrap header--flex">
-        <h1 className="header--logo"><Link to="/">Courses</Link></h1>
-        <Nav />
-      </div>
-    </header>
+    <div className="wrap header--flex">
+      <Home />
+    </div>
   );
 }
 
